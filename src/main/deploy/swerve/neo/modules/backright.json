@@ -1,26 +1,27 @@
 {
+  "location": {
+    "front": -13.875,
+    "left": 8.875
+  },
+  "absoluteEncoderOffset": 0,
   "drive": {
     "type": "sparkmax_neo",
-    "id": 5,
+    "id": 24,
     "canbus": null
   },
   "angle": {
     "type": "sparkmax_neo",
-    "id": 6,
-    "canbus": null
-  },
-  "encoder": {
-    "type": "cancoder",
-    "id": 11,
+    "id": 23,
     "canbus": null
   },
   "inverted": {
-    "drive": false,
-    "angle": false
+    "angle": true,
+    "drive": false
   },
-  "absoluteEncoderOffset": -18.281,
-  "location": {
-    "front": -12,
-    "left": -12
-  }
+  "encoder": {
+    "type": "cancoder",
+    "id": 34,
+    "canbus": null
+  },
+  "absoluteEncoderInverted": false
 }
